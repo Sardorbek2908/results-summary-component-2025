@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
 
 .card {
@@ -14,3 +24,171 @@
 
 }
 
+.results-summary__card {
+    display: flex;
+}
+
+.results-card {
+    width: 368px;
+    height: 512px;
+    padding-top: 38px;
+    border-radius: 32px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+}
+
+.result-info {
+    font-family: "Hanken Grotesk";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    text-align: center;
+    color: #CAC9FF;
+    padding-bottom: 35px;
+}
+
+.rusult-oval {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+}
+
+.result-value {
+    font-family: "Hanken Grotesk";
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fff;
+
+}
+
+.result-max {
+    font-family: "Hanken Grotesk";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    color: #CAC9FF;
+
+}
+
+.reults-desc {
+    padding-top: 28px;
+    width: 260px;
+    height: 134px;
+    margin: auto;
+}
+
+.reults-desc__title {
+    font-family: "Hanken Grotesk";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+}
+
+.reults-desc__text {
+    font-family: "Hanken Grotesk";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    text-align: center;
+    color: #CAC9FF;
+
+}
+
+/* ---------------------- */
+
+.summary-card {
+    padding: 38px 40px;
+}
+
+.summary-title {
+    font-family: Hanken Grotesk;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    color: #303B59;
+    padding-bottom: 28px;
+}
+
+.summary-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    padding-bottom: 70px;
+}
+
+.summary-item {
+    width: 288px;
+    height: 56px;
+    padding-left: 16px;
+    display: flex;
+    border-radius: 12px;
+    padding: 17px;
+    justify-content: space-between;
+}
+
+.summary-item:nth-child(1) {
+    background-color: rgb(255, 228, 228);
+}
+
+.summary-item:nth-child(2) {
+    background: linear-gradient(0deg, #faedd5, #f9edd8),
+        linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+
+}
+
+.summary-item:nth-child(3) {
+    background: linear-gradient(0deg, #bffbed, #97ffe7),
+        linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+
+}
+
+.summary-item:nth-child(4) {
+    background: linear-gradient(0deg, #bcc1f0, #bcc0e5),
+        linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+
+}
+
+
+.summary-title {
+    font-family: Hanken Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    padding-left: 12px;
+}
+
+.summary-text {
+    font-family: Hanken Grotesk;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    color: #303B59;
+}
+
+.samuray-text__color {
+    opacity: 0.5;
+
+}
+
+.summary-bnt {
+    font-family: Hanken Grotesk;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    text-align: right;
+    padding: 17px 107px;
+    background: #303B59;
+    border-radius: 32px;
+    color: #fff;
+}
